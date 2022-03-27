@@ -1,4 +1,4 @@
-package com.example.androiddesignpatterns.ui.shoppingList
+package com.example.androiddesignpatterns.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
