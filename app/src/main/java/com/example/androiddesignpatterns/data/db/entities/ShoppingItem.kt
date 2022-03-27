@@ -1,4 +1,4 @@
-package com.example.androiddesignpatterns
+package com.example.androiddesignpatterns.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -12,5 +12,5 @@ data class ShoppingItem(
     val amount: Int
 ) {
     @PrimaryKey(autoGenerate = true)
-    val id: Int? = null
+    var id: Int? = null
 }
