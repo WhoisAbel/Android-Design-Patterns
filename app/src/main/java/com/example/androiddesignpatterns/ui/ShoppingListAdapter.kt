@@ -10,7 +10,7 @@ import com.example.androiddesignpatterns.R
 import com.example.androiddesignpatterns.data.db.entities.ShoppingItem
 
 class ShoppingListAdapter(
-    private val items: List<ShoppingItem>,
+     var items: List<ShoppingItem>,
     private val viewModel: ShoppingViewModel
 ) : RecyclerView.Adapter<ShoppingListAdapter.ShoppingViewHolder>() {
 
