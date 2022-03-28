@@ -9,3 +9,4 @@ Technologies:
 * Room
 * ViewModel
 * LiveData
+* Kodein
